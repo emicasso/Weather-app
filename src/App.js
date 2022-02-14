@@ -5,10 +5,10 @@ import SummaryCard from "./components/SummaryCard";
 function App() {
   const API_KEY = process.env.REACT_APP_API_KEY
 
-  const [noData, setNoData] = useState('No Data Yet')
+  const [noData, setNoData] = useState('No ingreso Datos')
   const [searchTerm, setSearchTerm] = useState('')
   const [weatherData, setWeatherData] = useState([])
-  const [city, setCity] = useState('Unknown location')
+  const [city, setCity] = useState('Locacion no encontrada')
   const [weatherIcon, setWeatherIcon] = useState(`${process.env.REACT_APP_ICON_URL}10n@2x.png`)
 
   const handleChange = input => {
