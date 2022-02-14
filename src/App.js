@@ -1,4 +1,7 @@
 import {useState} from 'react'
+import Header from './components/Header'
+import DetailCard from './components/DetailCard'
+import SummaryCard from './components/SummaryCard'
 
 function App() {
 
