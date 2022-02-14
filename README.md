@@ -2,7 +2,7 @@
     <b>
         <a href="https://scalculadora.netlify.app/">Weather App</a><br>
     </b>
-    :collision:Pronóstico en Tiempo Real:<br>
+    :collision:Pronóstico en Tiempo Real:collision:<br>
 </h1>
 
 App de Pronóstico con llamada a Api, proyecto creado a modo de prueba para adquirir conocimientos.
